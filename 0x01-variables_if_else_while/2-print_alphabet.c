@@ -8,9 +8,12 @@
  */
 int main(void)
 {
-	char yes = 'Y';
+	char letters;
 
-	putchar(yes);
-	putchar(tolower(yes));
+	for (letters = 'a'; letters <= 'z'; letters++)
+	{
+		putchar(letters);
+	}
+	putchar('\n')
 	return (0);
 }
