@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <unistd.h>
 /**
  *     main - main block
  *     Return: 0
@@ -13,15 +14,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf(n, "is positive\n");
+		write(n, "is positive\n");
 	}
 	else if (n == 0)
 	{
-		printf(n, "is zero\n");
+		write(n, "is zero\n");
 	}
 	else
 	{
-		printf(n, "is negative\n");
+		write(n, "is negative\n");
 	}
 	return (0);
 }
