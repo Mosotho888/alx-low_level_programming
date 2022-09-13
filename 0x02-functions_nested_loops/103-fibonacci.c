@@ -9,16 +9,12 @@
  */
 int main(void)
 {
-	unsigned int fib1 = 1, fib2 = 2, sum;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 	float totalSum;
 
-	while (1)
+	while (sum <= 4000000)
 	{
 		sum = fib1 + fib2;
-		if (sum > 4000000)
-		{
-			break;
-		}
 		if ((sum % 2) == 0)
 		{
 			totalSum += sum;
