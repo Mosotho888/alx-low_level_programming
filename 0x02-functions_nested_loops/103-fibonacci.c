@@ -10,9 +10,9 @@
 int main(void)
 {
 	unsigned int fib1 = 1, fib2 = 2, sum;
-	float totalSum = 0.0;
+	float totalSum;
 
-	while (0)
+	while (1)
 	{
 		sum = fib1 + fib2;
 		if (sum > 4000000)
