@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	unsigned int fib1 = 1, fib2 = 2, sum = 0;
+	unsigned int fib1 = 1, fib2 = 2, sum;
 	float totalSum;
 
 	while (0)
