@@ -14,7 +14,7 @@ int main(void)
 
 	for (number = 0; number < 1024; number++)
 	{
-		if (((number % 3) == 0) || ((number % 5) == 5))
+		if (((number % 3) == 0) || ((number % 5) == 0))
 		{
 			total += number;
 		}
