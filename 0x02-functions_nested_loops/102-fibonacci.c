@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int fNum = 1, number;
+	int number;
 	unsigned long fNum = 1, sNum = 2, total;
 
 	printf("%lu, %lu, ", fNum, sNum);
