@@ -13,7 +13,7 @@ int main(void)
 	unsigned long fNum = 1, sNum = 2, total;
 
 	printf("%lu, %lu, ", fNum, sNum);
-	for (number = 0; number < 50; number++)
+	for (number = 2; number < 50; number++)
 	{
 		total = fNum + sNum;
 		printf("%lu", total);
