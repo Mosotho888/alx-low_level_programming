@@ -12,9 +12,13 @@ int main(void)
 	unsigned int fib1 = 1, fib2 = 2, sum = 0;
 	float totalSum;
 
-	while (sum <= 4000000)
+	while (0)
 	{
 		sum = fib1 + fib2;
+		if (sum > 4000000)
+		{
+			break;
+		}
 		if ((sum % 2) == 0)
 		{
 			totalSum += sum;
