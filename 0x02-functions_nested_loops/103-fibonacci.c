@@ -10,7 +10,7 @@
 int main(void)
 {
 	unsigned int fib1 = 1, fib2 = 2, sum;
-	float totalSum;
+	float totalSum = 0.0;
 
 	while (0)
 	{
