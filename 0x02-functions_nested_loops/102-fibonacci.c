@@ -16,7 +16,7 @@ int main(void)
 	for (number = 0; number < 50; number++)
 	{
 		total = fNum + sNum;
-		printf("%d", total);
+		printf("%lu", total);
 		fNum = sNum;
 		sNum = total;
 
