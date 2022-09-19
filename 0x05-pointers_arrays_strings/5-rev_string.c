@@ -5,10 +5,13 @@
  */
 void rev_string(char *s)
 {
-	int length, index = 0;
+	int length = 0, index = 0;
 	char tmp;
 
-	length = _strlen(s);
+	while (s[index++])
+	{
+		length++;
+	}
 	for (index = length - 1; index >= (length / 2); index--)
 	{
 		tmp = s[index];
