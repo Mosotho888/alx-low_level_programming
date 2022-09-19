@@ -7,7 +7,10 @@ void print_rev(char *s)
 {
 	int length = 0, index;
 
-	length = _strlen(s);
+	while (s[index++])
+	{
+		length++;
+	}
 	for  (index = length - 1; index >= 0; index--)
 	{
 		_putchar(s[index]);
