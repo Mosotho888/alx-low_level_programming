@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  *       _strcmp - Compares pointers to two strings.
@@ -10,10 +10,27 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	while (*s1 && *s2 && *s1 == *s2)
+	int i, len =0;
+
+	while (*s++)
 	{
-		s1++;
-		s2++;
+		len++;
 	}
-	return (*s1 - *s2);
+
+	for (i = 0; i < len; i ++)
+	{
+		if (s1[i] != s2[i])
+		{
+			if (s1[i] < s2[i])
+			{
+				return ("is lesser");
+			}
+			if (s1[i] > s1[i])
+			{
+				return ("is bigger");
+			}
+		}
+
+	}
+	return ("is equal");
 }
