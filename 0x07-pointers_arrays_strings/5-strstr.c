@@ -20,7 +20,7 @@ char *_strstr(char *haystack, char *needle)
 	while (*haystack)
 	{
 		index = 0;
-		
+
 		if (haystack[index] == needle[index])
 		{
 			do {
